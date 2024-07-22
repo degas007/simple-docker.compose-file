@@ -8,3 +8,5 @@ services:
     image: nginx
     ports:
       - 5051:80
+    volumes:
+     - /tmp/myvol:/tmp/myvol1:rw
