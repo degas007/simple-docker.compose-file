@@ -1,0 +1,10 @@
+version: '3'
+services:
+   myfirstweb:
+    image: nginx
+    ports: 
+      - 5050:80
+   mysecondweb:
+    image: nginx
+    ports:
+      - 5051:80
